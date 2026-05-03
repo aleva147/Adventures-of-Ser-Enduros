@@ -1,0 +1,6 @@
+The "Shared" folder contains purely structural C# classes (DTOs - Data Transfer Objects)
+used both by the Client and the Server. 
+
+Since this project only simulates a real Client-Server connection, 
+the code is simplified by using shared DTOs instead of actually having mirrored classes on both ends
+and serializing/deserializing data using json functions.

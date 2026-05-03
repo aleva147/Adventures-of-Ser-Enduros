@@ -1,0 +1,1 @@
+public enum BattlePhase { PlayerTurn, MonsterTurn, Victory, Defeat };

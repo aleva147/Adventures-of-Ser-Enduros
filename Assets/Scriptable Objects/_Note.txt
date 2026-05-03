@@ -1,0 +1,2 @@
+Because of dynamic loading through scripts, 
+RunConfig and all Monster Scriptable Objects are located in the Resources folder.

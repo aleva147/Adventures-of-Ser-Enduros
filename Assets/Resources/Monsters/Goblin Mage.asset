@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3161224b821d1d5baa9fa44f6f04ff88, type: 3}
+  m_Name: Goblin Mage
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterSO
+  Name: Goblin Mage
+  Stats:
+    MaxHealth: 40
+    Attack: 4
+    Defense: 10
+    Magic: 10
+  Moveset:
+  - {fileID: 11400000, guid: 7063e5ad3d6f3533f9427bd120b1a614, type: 2}
+  - {fileID: 11400000, guid: 434faeef6fba9c85680efa6ffa959362, type: 2}
+  - {fileID: 11400000, guid: e55c4a488c0e91519aecd1a22dae9c96, type: 2}
+  Description: Some say he is the root of all evil that can read your mind
+  AIProfile: {fileID: 11400000, guid: fe17984a02a9e2c018df4ba38230ce2a, type: 2}
+  ExpReward: 50

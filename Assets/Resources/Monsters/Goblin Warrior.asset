@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3161224b821d1d5baa9fa44f6f04ff88, type: 3}
+  m_Name: Goblin Warrior
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterSO
+  Name: Goblin Warrior
+  Stats:
+    MaxHealth: 10
+    Attack: 4
+    Defense: 2
+    Magic: 0
+  Moveset:
+  - {fileID: 11400000, guid: 301d2f0cd8d2da273a5f156e6c89b9d8, type: 2}
+  - {fileID: 11400000, guid: f7fbf271152a4fcb8b842704ee9ecfba, type: 2}
+  - {fileID: 11400000, guid: 707f241695fb9caf283035371444681a, type: 2}
+  Description: All muscle and no brains. Swings destructively but gets tired easily...
+  AIProfile: {fileID: 11400000, guid: fe17984a02a9e2c018df4ba38230ce2a, type: 2}
+  ExpReward: 5

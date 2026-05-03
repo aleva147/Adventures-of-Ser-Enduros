@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71861263c93cee77c940ef1bbf6be798, type: 3}
+  m_Name: Ser Enduros
+  m_EditorClassIdentifier: Assembly-CSharp::HeroSO
+  Name: Ser Enduros
+  BaseStats:
+    MaxHealth: 14
+    Attack: 3
+    Defense: 4
+    Magic: 0
+  BaseMoveset:
+  - {fileID: 11400000, guid: 419ce56863e483ff2b2408945ae628a7, type: 2}
+  - {fileID: 11400000, guid: 5a7ced27be7016f118621a3eaaee68b2, type: 2}
+  - {fileID: 11400000, guid: 42d291c39123b84d4b78df2e281b3b1d, type: 2}
+  - {fileID: 11400000, guid: 0b8e7b123ef6f92e8ba34f6f3cdcde04, type: 2}
+  ExpThresholds: 08000000110000002d000000580000008c000000
+  StatGrowthPerLevel:
+  - MaxHealth: 5
+    Attack: 3
+    Defense: 2
+    Magic: 3
+  - MaxHealth: 8
+    Attack: 4
+    Defense: 2
+    Magic: 3
+  - MaxHealth: 8
+    Attack: 2
+    Defense: 3
+    Magic: 5
+  - MaxHealth: 11
+    Attack: 5
+    Defense: 7
+    Magic: 7
+  - MaxHealth: 14
+    Attack: 4
+    Defense: 5
+    Magic: 9
+  AllTitles:
+  - "\u2022 Knight of the Southern Kingdom"
+  - "\u2022 Hero of the Forgotten Village"
+  - "\u2022 Light Bringer"
+  - "\u2022 Witch Hunter"
+  - "\u2022 Dragon Slayer"
+  - "\u2022 Saviour of the Kingdom"

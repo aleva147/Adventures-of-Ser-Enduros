@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea60da07338ccd4f833527f0f0bd618, type: 3}
+  m_Name: CharacterSprites
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterSpritesSO
+  entries:
+  - characterName: Ser Enduros
+    sprite: {fileID: -5918137915363136097, guid: fefd7e94272dd190cb2713667ceb306c, type: 3}
+  - characterName: Goblin Warrior
+    sprite: {fileID: -2086191518149510023, guid: d91b515d824b99cfb90b9fbd28c22fe3, type: 3}
+  - characterName: Giant Spider
+    sprite: {fileID: -5396700817622867847, guid: d91b515d824b99cfb90b9fbd28c22fe3, type: 3}
+  - characterName: WItch
+    sprite: {fileID: -5996608079194875224, guid: d91b515d824b99cfb90b9fbd28c22fe3, type: 3}
+  - characterName: Dragon
+    sprite: {fileID: 802761708442527142, guid: d91b515d824b99cfb90b9fbd28c22fe3, type: 3}
+  - characterName: Goblin Mage
+    sprite: {fileID: 9001568371343310336, guid: d91b515d824b99cfb90b9fbd28c22fe3, type: 3}
